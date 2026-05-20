@@ -2,8 +2,8 @@
 #SBATCH -J ad-em
 #SBATCH -N 2
 #SBATCH --ntasks-per-node=16
-#SBATCH -t 024:00:00
-#SBATCH -A naiss2025-22-1789
+#SBATCH -t 001:00:00
+#SBATCH -A xxx
 
 export OMP_NUM_THREADS=2
 export OMP_STACKSIZE=512m
